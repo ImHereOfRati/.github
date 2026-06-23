@@ -1,7 +1,5 @@
 # ImHere
 
-<img width="100" height="100" alt="app_logo" src="https://github.com/user-attachments/assets/4f9ae094-b6d4-4613-a80b-079ddb324e96" />
-
 <br>
 
 - 출발 또는 도착 시 지정된 연락처로 자동 알림을 전송합니다.
