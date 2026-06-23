@@ -1,16 +1,16 @@
 # ImHere
 
 <img width="100" height="100" alt="app_logo" src="https://github.com/user-attachments/assets/4f9ae094-b6d4-4613-a80b-079ddb324e96" />
+
 <br>
 
-- 출발/도착 시 자동으로 문자를 보내드립니다.
-- `위치정보의 보호 및 이용 등에 관한 법률` 을 피하기 위해 서버로 실시간 위치 전송은 하지 않습니다.
-- 대신, `Mobile` 에서 `GPS` 을 지속적으로 추적하고, 조건이 일치할 때, 알림 발송 요청을 서버로 보냅니다.
-
+- 출발 또는 도착 시 지정된 연락처로 자동 알림을 전송합니다.
+- 서버는 사용자의 실시간 위치를 수집하거나 저장하지 않습니다.
+- 위치 판별은 모바일 기기에서 직접 수행하며, 출발 또는 도착 조건이 충족될 때만 서버에 알림 전송을 요청합니다.
 
 ## 핵심 레포지토리
-[ImHere 서버](https://github.com/ImHereOfRati/server)
-<br>
-[ImHere 모바일](https://github.com/ImHereOfRati/mobile)
 
-추가로, `Configuration(서버 관련 비밀 번호)` 을 버전 관리 및 원격 접속을 지원하기 위한 `private` 레포지토리가 존재합니다. 
+- [ImHere 서버](https://github.com/ImHereOfRati/server)
+- [ImHere 모바일](https://github.com/ImHereOfRati/mobile)
+
+추가로 서버 설정 정보(Configuration)와 원격 운영에 필요한 파일을 관리하기 위한 비공개(Private) 레포지토리를 별도로 운영하고 있습니다.
